@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./checkout.css";
+import "./CheckOut.css";
 import { ToastContainer,toast } from "react-toastify";
 function Checkout() {
   let user = localStorage.getItem("user");
