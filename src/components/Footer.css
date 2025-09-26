@@ -1,0 +1,49 @@
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 50px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section h3, 
+.footer-section h4 {
+  color: goldenrod;
+  margin-bottom: 15px;
+}
+
+.footer-section p, 
+.footer-section a {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: goldenrod;
+}
+
+.payments img {
+  height: 30px;
+  margin-right: 10px;
+
+
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  font-size: 13px;
+  color: #777;
+}

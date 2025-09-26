@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  gap: 15px;
+  padding: 12px 20px;
+  background:black; 
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.nav select,
+.nav input {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid black; 
+  background: #2a2a2a; 
+  color: #d4af37; 
+  font-size: 14px;
+  outline: none;
+}
+
+.nav select:hover,
+.nav input:hover {
+  background: #333;
+  border-color:black; 
+}
+
+.nav input::placeholder {
+  color: #c0a060; 
+}
+.img-hover {
+  transition: transform 0.1s linear;
+}
+
+.img-hover:hover {
+  transform: scale(1.02);
+}
+

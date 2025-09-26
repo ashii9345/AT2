@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: #fafafa;
+  color: #222;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.navbar li:hover {
+  color: #a17c4d;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  opacity: 1;
+  transform: translateX(0);
+  animation: asd 2s;
+
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+  opacity: 1;
+  transform: translateX(0);
+  animation: asd 3s;
+}
+@keyframes asd{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}
+
+.hero-text button {
+  padding: 12px 24px;
+  background: #a17c4d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.products {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 15px 0 8px;
+  font-size: 18px;
+}
+
+.product-card p {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  background: #a17c4d;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.hero-image{
+    opacity: 1;
+    transform: translateX(0);
+    animation: ashi 2s;
+}
+@keyframes ashi {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+img{
+    height: 500px;
+    object-fit: cover;
+  }

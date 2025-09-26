@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+.user {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.user p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+.wishlist {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.wishlist h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #444;
+}
+.previous {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.previous h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222;
+}
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.orders-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.orders-container div > div {
+  background: #fafafa;
+  padding: 16px;
+  border-radius: 10px;
+  flex: 1 1 calc(50% - 20px);
+  min-width: 280px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.orders-container div > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+.orders-container img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.orders-container p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+.orders-container button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+.orders-container button:hover {
+  background: #357abd;
+}
+.pfp{
+  border-radius: 100%;
+  width: 25%;
+  height: auto;
+}

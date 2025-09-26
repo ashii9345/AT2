@@ -1,0 +1,35 @@
+.main{
+    width: 20%;
+    padding: 5px ;
+    background-color:black;
+    height: 100%;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    color: aliceblue;
+    transform: translateX(0);
+    animation:ani 1s;
+}
+@keyframes ani{
+    from{
+        transform: translateX(-300px);
+    }
+}
+.sub{
+    margin: 10px;
+}
+.items{
+     padding: 0.5rem;
+}
+.items:hover{
+    cursor: pointer;
+    background-color: rgba(52, 45, 45, 0.148);
+   
+}
+.active{
+    padding: 0.5rem;
+    background-color: wheat;
+    border-radius: 12px;
+    color: black;
+}
