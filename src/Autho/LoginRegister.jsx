@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './LoginRegister.css'
-import { FaUser } from "react-icons";
-import { FaLock } from "react-icons";
-import { FaEnvelope } from "react-icons";
+import { FaUser } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
