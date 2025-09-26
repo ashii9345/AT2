@@ -6,7 +6,7 @@ function Checkout() {
   let user = localStorage.getItem("user");
   let conv = JSON.parse(user);
   let userId = conv.id;
-  const [allOrders,setAllOreders]=useState([])
+  const [allOrders,setAllOreders]=useState([])  
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState({
