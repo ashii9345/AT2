@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import './LoginRegister.css'
-import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+import './LoginRegister.css';
+// import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
@@ -84,12 +84,12 @@ async function handelLogin(e){
                 <div className='input-box'>
                     <input type='text'
                     placeholder='username' required onChange={(e)=>setUserName(e.target.value)}/>
-                    <FaUser className='icon' />
+                    {/* <FaUser className='icon' /> */}
                 </div>
                 <div className='input-box'>
                     <input type='password'
                     placeholder='Password' required onChange={(e)=>setPassword(e.target.value)}/>
-                    <FaLock  className='icon'/>
+                    {/* <FaLock  className='icon'/> */}
                 </div>
                 <div className='remember-forget'>
                     <label><input type='checkbox'/>Remember Me</label>
@@ -108,19 +108,19 @@ async function handelLogin(e){
                 <div className='input-box'>
                     <input type='text'
                     placeholder='username' required onChange={(e)=>{setUser({...user,userName:e.target.value})}} value={user.userName}/>
-                    <FaUser className='icon' /> 
+                    {/* <FaUser className='icon' />  */}
                     <p>{error && error.userName}</p>
                 </div>
                 <div className='input-box'>
                     <input type='email'
                     placeholder='Email' required onChange={(e)=>{setUser({...user,email:e.target.value})}} value={user.email}/>
-                    <FaEnvelope className='icon' /> 
+                    {/* <FaEnvelope className='icon' />  */}
                     <p>{error && error.email}</p>
                 </div>
                 <div className='input-box'>
                     <input type='password'
                     placeholder='Password' required onChange={(e)=>{setUser({...user,password:e.target.value})}} value={user.password}/>
-                    <FaLock  className='icon'/>
+                    {/* <FaLock  className='icon'/> */}
                     <p>{error && error.password}</p>
                 </div>
                 <button type='submit' onClick={handleRegister}>Register</button>
