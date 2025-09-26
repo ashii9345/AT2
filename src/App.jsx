@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginRegister from './Autho/LoginRegister.jsx'
+import LoginRegister from '../src/Autho/LoginRegister.jsx'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
